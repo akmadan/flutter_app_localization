@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // LanguagePickerWidget(),
+          LanguagePickerWidget(),
           FlagWidget(),
           Text(
             AppLocalizations.of(context)!.greeting,

@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: 'App Localization',
             supportedLocales: L10n.all, //Takes a List of Locales
-            // locale: languageprovider.locale,
+            locale: languageprovider.locale,
             localizationsDelegates: [
               AppLocalizations
                   .delegate, //Importing the Locales Present in app_localizations.dart file in .dart_tool
