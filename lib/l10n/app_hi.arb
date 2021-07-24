@@ -1,0 +1,7 @@
+{ 
+    "language": "हिंदी", 
+    "greeting":"नमस्ते उपयोगकर्ता", 
+    "name":"अक्षित", 
+    "howareyou":"नमस्ते {username}"
+    
+}

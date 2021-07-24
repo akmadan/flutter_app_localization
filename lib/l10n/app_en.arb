@@ -1,0 +1,29 @@
+
+
+{ 
+    "language": "English", 
+    "@language":{ 
+        "description":"Current language"
+    }, 
+     "greeting":"Hello User", 
+    "@greeting":{ 
+        "description":"Greeting"
+    }, 
+     "name":"Akshit",
+    "@name":{ 
+        "description":"Name"
+    },
+    "howareyou":"How are you doing {username}", 
+    "@howareyou":{ 
+        "description":"Asking", 
+        "placeholders":{
+            "username":{ 
+                "type":"String"
+            }
+        }
+    }
+}
+
+
+ 
+  
